@@ -6,8 +6,8 @@ import os
 import mimetypes
 
 # Replace these values with your own
-api_id = ""
-api_hash = ""
+api_id = "29171167"
+api_hash = "7ea2149629e445936619f06a3c0dc716"
 bot_token = ""
 
 app = Client("screenshot_bot", api_id=api_id, api_hash=api_hash, bot_token=bot_token)
@@ -60,11 +60,11 @@ def screenshot_video(file_path, max_frames=10):
 async def start(client, message):
     buttons = [
         [
-            InlineKeyboardButton("📣 Join my channel 📣", url="https://t.me/NT_BOT_CHANNEL"),
-            InlineKeyboardButton("👥 Support group 👥", url="https://t.me/NT_BOTS_SUPPORT"),
+            InlineKeyboardButton("📣 Join my channel 📣", url="https://t.me/akmovieshubbackup"),
+            InlineKeyboardButton("👥 Support group 👥", url="https://t.me/akmoviebotz"),
         ],
         [
-            InlineKeyboardButton("👩‍💻 Developer 👩‍💻", url="https://t.me/LISA_FAN_LK"),
+            InlineKeyboardButton("👩‍💻 Developer 👩‍💻", url="https://t.me/The_SonGoku"),
             InlineKeyboardButton("⛔️ Cancel ⛔️", callback_data="cancel"),
         ]
     ]
